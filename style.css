@@ -1,0 +1,104 @@
+body
+{
+  text-align:center;
+  background:linear-gradient(#E6E6FA 0%, #00FFBF 100%);
+  background-repeat:no-repeat;
+}
+
+img {
+  width:40%;
+  
+}
+
+#bio {
+  padding:20px;
+  font-size:18;
+  text-align:center;
+}
+
+h1 {
+  text-shadow: 2px 2px #F8BBDO;
+  font-size:20px;
+}
+
+.line {
+  background-color:black;
+  width:70px;
+  height:6px;
+  margin:8px auto;
+}
+
+.menu {
+    list-style:none;
+    font-family:cursive;
+    position:fixed;
+    top:0px;
+    margin-top:0px;
+    padding-left:250px;
+    text-align:center;
+    cursor:pointer;
+    background-color:white;
+    z-index:10;
+    cursor:pointer;
+    width:100%;
+}
+
+.menu a {
+    text-decoration:none;
+    color: darkblue;
+    text-shadow: 2px 2px gainsboro;
+}
+
+
+#welcome {
+    font-family: 'Dancing Script', cursive;
+}
+
+.links {
+    float:left;
+    color:rebeccapurple;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    font-size:20px;
+}
+
+.links:hover {
+   background-color:paleturquoise; 
+}
+
+#imgbooks {
+    text-align:center;
+    border-radius:50%;
+}
+
+#reviews {
+    margin-bottom:30px;
+}
+
+h1{
+    font-size:30px;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+#rowling {
+  transition: transform.2s
+      border:10px solid #AAAAAA;
+}
+
+#rowling:hover {
+    transform:scale(0.9);
+}
+
+.email h3 {
+    display:inline;
+    color:darkblue;
+}
+
+.email a {
+    text-decoration:none;
+}
